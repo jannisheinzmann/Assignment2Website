@@ -9,10 +9,18 @@ title: 11056 Project 2 Starter
 
 hero:
     title: "I am the hero title!"
+
+cryingMan:
+    alt: "meCrying"
+    link: "assets/images/crying.jpg"
+
 ---
 
+base: "this is a thing"
 
 # Hello!
+
+this is a new title to see what happens
 
 ## I am your index.md file
 

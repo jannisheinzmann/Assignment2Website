@@ -54,3 +54,34 @@ footer {
 main {
     margin-bottom: 2em;
 }
+
+img[alt=meCrying] {
+    width: 300px;
+    height: auto;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat (12, 1fr);
+    grid-template-areas: 
+        "hr hr hr hr hr hr hr hr hr hr hr hr"
+        ". . m m m m m m m m . ."
+    ;
+}
+
+.gallaryWrap{
+    grid-area: m;
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gallaryWrap > img{
+    padding: 1em;
+}
+
+.heroImg{
+    grid-area: hr;
+    position: relative;
+}
+
