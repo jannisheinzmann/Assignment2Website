@@ -3,16 +3,24 @@
 layout: layouts/homepage
 
 # set the page title
-title: 11056 Project 2 Starter
+title: 60s Dinner Food
 
 # We can set extra info here to use in our templates
 
 hero:
-    title: "I am the hero title!"
+    title: "60s Dinner Food"
 
 cryingMan:
     alt: "meCrying"
     link: "assets/images/crying.jpg"
+
+I1:
+    alt: "FishwithCrackers"
+    link: "assets/images/Food/1.jpg"
+
+I2:
+    alt: "bunnanerscoveredincheese"
+    link: "assets/images/Food/2.jpg"
 
 ---
 
