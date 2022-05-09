@@ -1,3 +1,5 @@
+/* text and font stuff */
+
 body {
     font-size: 16px;
     background-color: #f4f4f4;
@@ -24,10 +26,8 @@ p {
     margin-bottom: 1.5em;
 }
 
-.inner-wrapper {
-    width: 90%;
-    margin: 0 auto;
-}
+/* head and footer stuff */
+
 
 header,
 footer {
@@ -49,7 +49,7 @@ footer {
 
 }
 
-
+/* this is all the main contentent */
 
 main {
     margin-bottom: 2em;
@@ -67,6 +67,7 @@ img[alt=meCrying] {
         "hr hr hr hr hr hr hr hr hr hr hr hr"
         ". . m m m m m m m m . ."
     ;
+    background-color: aquamarine;
 }
 
 .gallaryWrap{
@@ -85,3 +86,35 @@ img[alt=meCrying] {
     position: relative;
 }
 
+.ather{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+
+
+/* this is all the colume stuff stuff */
+.columns {
+    Width: 100%;
+    background-color: green;
+    float: right;
+}
+.column1, .column2 {
+    width:100%;
+}
+    @media (min-width: 48em) {
+      .column1 {
+        width: 70%;
+        float:left;
+        background-color: purple;
+      }
+      
+      .column2 {
+        width: 30%;
+        float:right;
+        background-color: pink;
+      }
+    
+
+}
