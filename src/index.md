@@ -3,16 +3,32 @@
 layout: layouts/homepage
 
 # set the page title
-title: 60s Dinner Food
+title: The King of Food
 
 # We can set extra info here to use in our templates
 
 hero:
     title: "60s Dinner Food"
 
+atherName: Jannis Heinzmann
+
+atherAbout: im awesome and make the best 60s dinner food content. bdsjkhfjk shdfkjhskjhfdkjshfjkdsh fkjdshfkjhds kjfhskjdhfjkdshf kjdshfkjhs dkjfhdskhf dskhf kdjs k jds hfkjdsh fkdsh fkhdskjfh dskjfhdsjkhf dksjhfj kdshk jfds hfkhds kjfh dsk jhkds
+
+Hero-Img:
+    alt: "hero"
+    link: "assets/images/Food/h.png"
+
 cryingMan:
     alt: "meCrying"
-    link: "assets/images/crying.jpg"
+    link: "assets/images/high.jpeg"
+
+ad1:
+    alt: "Advert1"
+    link: "assets/images/Food/ad1.png"
+
+ad2:
+    alt: "Advert2"
+    link: "assets/images/Food/ad2.png"
 
 I1:
     alt: "FishwithCrackers"
@@ -56,7 +72,7 @@ I10:
 
 I11:
     alt: "prowngelly"
-    link: "assets/images/Food/11.jpg"
+    link: "assets/images/Food/11.png"
 
 I12:
     alt: "MONTEREYSOUFFLESALAD"

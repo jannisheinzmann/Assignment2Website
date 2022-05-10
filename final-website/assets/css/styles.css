@@ -2,7 +2,7 @@
 
 body {
     font-size: 16px;
-    background-color: #f4f4f4;
+    background-color: #ded9c7;
     font-family: sans-serif;
 }
 
@@ -31,23 +31,22 @@ p {
 
 header,
 footer {
-    background-color: #777999;
+    background-color: #eddb73;
     padding: 2em 0;
 }
 
 .hero {
     text-align: center;
-    background: #a5a5a5;
+    background: #9acac5;
     min-height: 5em;
     padding: 2em;
-    margin: 1em 0;
     /* vertically align */
     display: flex;
     align-items: center;
     justify-content: center;
-
-
 }
+
+
 
 /* this is all the main contentent */
 
@@ -55,19 +54,10 @@ main {
     margin-bottom: 2em;
 }
 
-img[alt=meCrying] {
-    width: 300px;
-    height: auto;
-}
+
 
 .wrapper{
-    display: grid;
-    grid-template-columns: repeat (12, 1fr);
-    grid-template-areas: 
-        "hr hr hr hr hr hr hr hr hr hr hr hr"
-        ". . m m m m m m m m . ."
-    ;
-    background-color: aquamarine;
+    background-color: ;
 }
 
 .gallaryWrap{
@@ -77,8 +67,21 @@ img[alt=meCrying] {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.gallaryWrap > img{
-    padding: 1em;
+.photoUnit{
+    padding: 2em;
+    background-color: #ded9c7;
+}
+
+.photoUnit > img{
+    height: auto;
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photoUnit > p{
+    margin-top: ;
 }
 
 .heroImg{
@@ -86,35 +89,89 @@ img[alt=meCrying] {
     position: relative;
 }
 
-.ather{
-    width: 100px;
-    height: 100px;
-    background-color: antiquewhite;
+.heroImg > img{
+    width: 100%;
+    height: auto;
+
 }
+
+.ather{
+    width: 80%;
+    padding: 30px;
+    background-color: #edbcc0;
+
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.ather > p{
+    padding: 40px 10px 10px 10px;
+}
+
+.atherImg{
+    max-width: 80px;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    margin: 10px;
+}
+
+.advert{
+    margin: 40px;
+}
+
+.advert > img{
+    width: 100%;
+}
+
+.column2 > P{
+    padding: 40px;
+    padding-top: 0px;
+}
+
 
 
 
 /* this is all the colume stuff stuff */
 .columns {
     Width: 100%;
-    background-color: green;
+    background-color: ;
     float: right;
 }
 .column1, .column2 {
     width:100%;
 }
-    @media (min-width: 48em) {
-      .column1 {
+
+.column2{
+    background-color: #edbcc0;
+}
+
+@media (min-width: 1040px) {
+    .column1 {
         width: 70%;
         float:left;
-        background-color: purple;
-      }
+        background-color: ;
+    }
       
-      .column2 {
+    .column2 {
         width: 30%;
         float:right;
-        background-color: pink;
-      }
-    
+        background-color: ;
+    }
+}
 
+@media (max-width: 1550px){
+    .gallaryWrap{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 800px){
+    .gallaryWrap{
+        grid-template-columns: 1fr;
+    }
+    .photoUnit{
+        display: inline-block;
+    }
 }
