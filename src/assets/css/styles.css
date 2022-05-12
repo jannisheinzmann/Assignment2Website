@@ -3,30 +3,35 @@
 body {
     font-size: 16px;
     background-color: #ded9c7;
-    font-family: sans-serif;
+    
 }
 
 h1 {
     font-size: 2em;
     /* shorthand for TOP RIGHT BOTTOM LEFT */
     /* margin: 1em 0 1.5em 0; */
+    font-family: 'Pacifico', cursive;
 }
 
 h2 {
     font-size: 1.6em;
+    font-family: 'Pacifico', cursive;
 }
 
 h3 {
     font-size: 1.4em;
+    font-family: 'Pacifico', cursive;
 }
 
 p {
     font-size: 1.2em;
     line-height: 1.5em;
     margin-bottom: 1.5em;
+    font-family: 'Comic Neue', cursive;
 }
 
 /* head and footer stuff */
+
 
 
 header,
@@ -54,7 +59,10 @@ main {
     margin-bottom: 2em;
 }
 
+.main-content{
+    padding: 40px
 
+}
 
 .wrapper{
     background-color: ;
@@ -105,7 +113,7 @@ main {
     display: table;
 }
 
-.ather > p{
+.ather > h2{
     padding: 40px 10px 10px 10px;
 }
 
